@@ -14,7 +14,7 @@ provider "aws" {
 
 # create a3 bucket
 resource "aws_s3_bucket" "example" {
-  bucket = "testbucket"
+  bucket = "terraformawstest"
 
   tags = {
     Name        = "terraformbucket"
